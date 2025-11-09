@@ -1,0 +1,51 @@
+export const styles = {
+    container: {
+        maxWidth: '450px',
+        margin: '50px auto',
+        padding: '30px',
+        border: '1px solid #ddd',
+        borderRadius: '10px',
+        boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)',
+        textAlign: 'center',
+        fontFamily: 'Arial, sans-serif',
+        backgroundColor: '#fff',
+    },
+    form: {
+        display: 'flex',
+        flexDirection: 'column',
+        gap: '15px',
+    },
+    input: {
+        padding: '12px',
+        borderRadius: '6px',
+        border: '1px solid #ccc',
+        fontSize: '16px',
+    },
+    button: {
+        padding: '12px',
+        backgroundColor: '#007bff',
+        color: 'white',
+        border: 'none',
+        borderRadius: '6px',
+        cursor: 'pointer',
+        fontSize: '16px',
+        fontWeight: 'bold',
+        transition: 'background-color 0.3s',
+    },
+    switchText: {
+        marginTop: '20px',
+        color: '#007bff',
+        cursor: 'pointer',
+        textDecoration: 'none',
+        fontSize: '14px',
+    },
+    tokenBox: {
+        marginTop: '25px',
+        padding: '15px',
+        border: '2px solid #28a745',
+        borderRadius: '6px',
+        textAlign: 'left',
+        backgroundColor: '#e9f7ee',
+        wordBreak: 'break-all',
+    }
+};
